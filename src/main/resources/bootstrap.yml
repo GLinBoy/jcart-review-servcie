@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: review
+  cloud:
+    config:
+      uri: http://localhost:8888
+      profile: default
+      label: main
+      fail-fast: true
